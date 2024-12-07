@@ -5,5 +5,6 @@ import { ContactTableComponent } from './features/contact/contact-table/contact-
 export const routes: Routes = [
   { path: 'contact-page', component: ContactPageComponent },
   { path: 'contact-table', component: ContactTableComponent },
-  { path: '**',   redirectTo: '/contact-page', pathMatch: 'full' }
+  { path: '' , redirectTo: '/contact-page', pathMatch:'full'},
+  { path: '**',  redirectTo: '/contact-page' }
 ];
