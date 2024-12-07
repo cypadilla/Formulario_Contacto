@@ -21,7 +21,8 @@
     selector: 'app-contact-form',
     imports: [MatFormFieldModule,MatSelectModule,ReactiveFormsModule, MatInputModule ,CommonModule],
     templateUrl: './contact-form.component.html',
-    styleUrl: './contact-form.component.scss'
+    styleUrl: './contact-form.component.scss',
+    standalone: true
   })
   export class ContactFormComponent {
 
