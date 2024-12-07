@@ -4,9 +4,10 @@ import { User } from '../../../models/user.model';
 
 @Component({
   selector: 'app-contact-page',
-  imports: [ContactFormComponent],
+  providers: [ContactFormComponent],
   templateUrl: './contact-page.component.html',
-  styleUrl: './contact-page.component.scss'
+  styleUrl: './contact-page.component.scss',
+  imports: [ContactFormComponent],
 })
 export class ContactPageComponent {
 

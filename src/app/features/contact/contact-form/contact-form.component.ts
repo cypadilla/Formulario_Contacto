@@ -22,7 +22,7 @@
     imports: [MatFormFieldModule,MatSelectModule,ReactiveFormsModule, MatInputModule ,CommonModule],
     templateUrl: './contact-form.component.html',
     styleUrl: './contact-form.component.scss',
-    standalone: true
+    standalone: true,
   })
   export class ContactFormComponent {
 
