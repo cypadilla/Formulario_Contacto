@@ -6,5 +6,5 @@ export const routes: Routes = [
   { path: 'contact-page', component: ContactPageComponent },
   { path: 'contact-table', component: ContactTableComponent },
   { path: '' , redirectTo: '/contact-table', pathMatch:'full'},
-  { path: '**', component:  ContactPageComponent }
+  { path: '**', component:  ContactTableComponent }
 ];
